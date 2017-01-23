@@ -54,7 +54,11 @@ android {
     }
 }
 
-
+android {
+    lintOptions {
+        abortOnError false
+    }
+}
 
 //라이브러리
 dependencies {
