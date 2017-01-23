@@ -4,14 +4,14 @@ apply plugin: 'com.android.application'
 // 안드로이드 앱관련 설정
 android {
     // 컴파일러 버전
-    compileSdkVersion 25
+    compileSdkVersion 23
     // 빌드(설치를 위한 apk생성) 툴 버전
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "com.android.jh.settings" //앱의 고유 ID // 앱의 root package명을 사용
         minSdkVersion 15 // 지원하는 최하위 안드로이드 버전
-        targetSdkVersion 25 // 컴파일과 빌드의 목표가 되는 버전
+        targetSdkVersion 23 // 컴파일과 빌드의 목표가 되는 버전
         versionCode 1       // 내부적으로 관리되는 버전(정수로 카운트)
         versionName "1.0"   // 외부적으로 알려지는 앱 버전
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner" // 테스트 환경
